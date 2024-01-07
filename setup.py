@@ -2,14 +2,14 @@ import pathlib
 from setuptools import setup
 from setuptools import find_packages
 
-PACKAGE = "PybookScrapper"
+PACKAGE = "PyBookAgents"
 THIS_DIR = pathlib.Path(__file__).parent
 LONG_DESCRIPTION = (THIS_DIR / "README.md").read_text()
 
 setup(
     name=PACKAGE,
-    version='0.0.3-DEV',
-    description="SIMPLE FACEBOOK SCRAPPER.",
+    version='0.0.1-DEV',
+    description="Random user agents generator for Facebook. It has 4 options: Dalvik, iPhone, Android, and Random (it's either Android or iPhone).",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     author="Sintacs Ao",
