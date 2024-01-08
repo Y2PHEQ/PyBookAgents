@@ -16,7 +16,7 @@ pip3 install git+https://github.com/sintxcs/PyBookAgents.git
 try:
     import PyBookAgents
 except ModuleNotFoundError:
-    os.system("pip3 install PyBookAgents")
+    os.system("pip3 install git+https://github.com/sintxcs/PyBookAgents.git)
     import PyBookAgents
 ```
 
