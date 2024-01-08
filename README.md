@@ -8,7 +8,7 @@
 
 ## Terminal Installation
 ```ruby
-pip3 install PyBookAgents
+pip3 install git+https://github.com/sintxcs/PyBookAgents.git
 ```
 
 ## Importing the module in your script
