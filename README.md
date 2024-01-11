@@ -68,6 +68,8 @@ print(PyBookAgents.random_ugen())
 Output Example:
 >> It's either Android or iPhone User Agent
 ```
+> **Disclaimer**: For educational purposes only. I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.
+
 
 ## Social Links
 [Facebook](https://facebook.com/sintxcs) • [Telegram](https://t.me/syntxcs)
