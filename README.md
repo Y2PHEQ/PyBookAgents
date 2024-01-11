@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/sintxcs/PyBookAgents/main/assets/PyBookAgents.jpg" alt="Logo">
   </a>
   <p align="center">
-    Random user agents generator for Facebook. It has 4 options: Dalvik, iPhone, Android, and Random (it's either Android or iPhone).<b>
+    Random user agents generator for Facebook. It has 4 options: Dalvik, iPhone, Android, and Random (it's either Android or iPhone).
 </p>
 
 ## Terminal Installation
