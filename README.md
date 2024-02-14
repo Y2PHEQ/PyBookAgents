@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/sintxcs/PyBookAgents/main/assets/PyBookAgents.jpg" alt="Logo">
   </a>
   <p align="center">
-    Random user agents generator for Facebook. It has 4 options: Dalvik, iPhone, Android, and Random (it's either Android or iPhone).
+    Random user agents generator for Facebook. It has 10 options: Dalvik, iPhone, Android, iPhone & Android random, FBAN Orca, FBAN mlite, FBAN lite, FBAN adsmanager, FBAN katana, and FBAN random.
 </p>
 
 ## Terminal Installation
@@ -68,8 +68,74 @@ print(PyBookAgents.random_ugen())
 Output Example:
 >> It's either Android or iPhone User Agent
 ```
+
+## FBAN Katana User Agent
+```python
+from PyBookAgents import fban_katana
+
+Input Example:
+print(PyBookAgents.fban_katana())
+
+Output Example:
+>> [FBAN/FB4A;FBAV/264.0.0.2.153;FBBV/898314875;FBDM/{density=2.5,width=1080,height=1439};FBLC/ar_AE;FBRV/249.0.0.9.179;FBCR/Sky Mobile;FBMF/Xiaomi;FBBD/M2003J15SC;FBPN/com.facebook.katana;FBDV/M2003J15SC;FBSV/12;FBOP/1;FBCA/arm64-v8a:]
+```
+
+## FBAN Orca User Agent
+```python
+from PyBookAgents import fban_orca
+
+Input Example:
+print(PyBookAgents.fban_orca())
+
+Output Example:
+>> [FBAN/FB4A;FBAV/264.0.0.2.153;FBBV/898314875;FBDM/{density=2.5,width=1080,height=1439};FBLC/ar_AE;FBRV/249.0.0.9.179;FBCR/Sky Mobile;FBMF/Xiaomi;FBBD/M2003J15SC;FBPN/com.facebook.orca;FBDV/M2003J15SC;FBSV/12;FBOP/1;FBCA/arm64-v8a:]
+```
+
+## FBAN Lite User Agent
+```python
+from PyBookAgents import fban_lite
+
+Input Example:
+print(PyBookAgents.fban_lite())
+
+Output Example:
+>> [FBAN/FB4A;FBAV/264.0.0.2.153;FBBV/898314875;FBDM/{density=2.5,width=1080,height=1439};FBLC/ar_AE;FBRV/249.0.0.9.179;FBCR/Sky Mobile;FBMF/Xiaomi;FBBD/M2003J15SC;FBPN/com.facebook.lite;FBDV/M2003J15SC;FBSV/12;FBOP/1;FBCA/arm64-v8a:]
+```
+
+## FBAN Mlite User Agent
+```python
+from PyBookAgents import fban_mlite
+
+Input Example:
+print(PyBookAgents.fban_mlite())
+
+Output Example:
+>> [FBAN/FB4A;FBAV/264.0.0.2.153;FBBV/898314875;FBDM/{density=2.5,width=1080,height=1439};FBLC/ar_AE;FBRV/249.0.0.9.179;FBCR/Sky Mobile;FBMF/Xiaomi;FBBD/M2003J15SC;FBPN/com.facebook.mlite;FBDV/M2003J15SC;FBSV/12;FBOP/1;FBCA/arm64-v8a:]
+```
+
+## FBAN adsmanager User Agent
+```python
+from PyBookAgents import fban_adsmanager
+
+Input Example:
+print(PyBookAgents.fban_adsmanager())
+
+Output Example:
+>> [FBAN/FB4A;FBAV/264.0.0.2.153;FBBV/898314875;FBDM/{density=2.5,width=1080,height=1439};FBLC/ar_AE;FBRV/249.0.0.9.179;FBCR/Sky Mobile;FBMF/Xiaomi;FBBD/M2003J15SC;FBPN/com.facebook.katana;FBDV/M2003J15SC;FBSV/12;FBOP/1;FBCA/arm64-v8a:]
+```
+## FBAN Random User Agent
+```python
+from PyBookAgents import fban_random
+
+Input Example:
+print(PyBookAgents.fban_random())
+
+Output Example:
+>> Random FBAN type
+```
+
 > [!WARNING]  
-> *This tool is for educational purposes only. I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.*
+> *This tool is for educational purposes only I won't take any responsibility if any users take advantage of this and exploit it for illicit activities.*
 
 
 ## Social Links
